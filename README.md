@@ -26,4 +26,4 @@
   // #define TJPGD_LOAD_SD_LIBRARY
   ```
 + 申请一个 tuya open sdk 授权码，在 tuyaDesktopDisplay.ino 文件中进行修改。[tuya-open-sdk-for-device/README_zh.md at master · tuya/tuya-open-sdk-for-device (github.com)](https://github.com/tuya/tuya-open-sdk-for-device/blob/master/README_zh.md#涂鸦云应用) 
-+ 编译烧录 arduino_tft_display
++ 编译烧录 tuyaDesktopDisplay
