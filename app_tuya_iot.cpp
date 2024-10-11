@@ -57,6 +57,6 @@ void app_iot_init(char *uuid, char *authkey)
 
   TuyaIoT.setEventCallback(tuyaIoTEventCallback);
   // The "PROJECT_VERSION" comes from the "PROJECT_VERSION" field in "appConfig.json"
-  TuyaIoT.begin("qhivvyqawogv04e4", PROJECT_VERSION);
+  TuyaIoT.begin("gkaae1ptocgamjy6", PROJECT_VERSION);
 }
 
