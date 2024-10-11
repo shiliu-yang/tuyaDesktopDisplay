@@ -14,6 +14,16 @@
 
 + [shiliu-yang/TFT_eSPI: Arduino and PlatformIO IDE compatible TFT library optimised for the Raspberry Pi Pico (RP2040), STM32, ESP8266 and ESP32 that supports different driver chips (github.com)](https://github.com/shiliu-yang/TFT_eSPI) 该仓库是从 TFT_eSPI fork 出来，支持 T2 的。
 + [shiliu-yang/arduino-tuyaopen: Arduino core for the T2/T3/T5 (github.com)](https://github.com/shiliu-yang/arduino-tuyaopen) 该仓库针对 TFT_eSPI 进行了 SPI 优化，功能还未 PR 到主仓库。
-+ 通过 Arduino IDE 下载 jpg 图片解码库 TJpg_Decoder。
++ 通过 Arduino IDE 下载 jpg 图片解码库 TJpg_Decoder，对 TJpg_Decoder 中的 src/User_Config.h 文件进行以下修改：
+
+  +  注释 #define TJPGD_LOAD_SD_LIBRARY ：
+
+  ```c
+  #if defined (ESP32) || defined (ARDUINO_ARCH_ESP8266) || defined (ARDUINO_ARCH_RP2040)
+    #define TJPGD_LOAD_FFS
+  #endif
+  
+  // #define TJPGD_LOAD_SD_LIBRARY
+  ```
 + 申请一个 tuya open sdk 授权码，在 tuyaDesktopDisplay.ino 文件中进行修改。[tuya-open-sdk-for-device/README_zh.md at master · tuya/tuya-open-sdk-for-device (github.com)](https://github.com/tuya/tuya-open-sdk-for-device/blob/master/README_zh.md#涂鸦云应用) 
 + 编译烧录 arduino_tft_display
