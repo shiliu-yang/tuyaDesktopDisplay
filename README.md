@@ -16,3 +16,4 @@
 
 > 注意：需要一个 tuya open sdk 授权码，在 tuyaDesktopDisplay.ino 文件中进行修改。[tuya-open-sdk-for-device/README_zh.md at master · tuya/tuya-open-sdk-for-device (github.com)](https://github.com/tuya/tuya-open-sdk-for-device/blob/master/README_zh.md#涂鸦云应用) 
 
+[嘉立创开源广场项目链接](https://oshwhub.com/yangyangyan/tuyadesktopdisplay)
