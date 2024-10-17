@@ -1,6 +1,7 @@
 # tuyaDesktopDisplay
 
-复刻项目仓库：[chuxin520922/SmallDesktopDisplay (github.com)](https://github.com/chuxin520922/SmallDesktopDisplay/tree/main)
+参考项目仓库：[chuxin520922/SmallDesktopDisplay (github.com)](https://github.com/chuxin520922/SmallDesktopDisplay/tree/main)
+外壳使用的是 SD2 的外壳。
 
 由于 T2 开发板 flash 空间有限，所以天气的图片都存放到了 uf 区域里面。所以在编译烧录主固件前需要先进行一下操作：
 
